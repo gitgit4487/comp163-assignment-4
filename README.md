@@ -1,4 +1,4 @@
-git add Ashton_assignment_3.py
+git add AshtonL_assignment_3.py
 
 # Test 1
 student_name = "Ashton"
