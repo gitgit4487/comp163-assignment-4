@@ -1,3 +1,5 @@
+git add Ashton_assignment_3.py
+
 # Test 1
 student_name = "Ashton"
 current_gpa = 3.0
@@ -12,6 +14,8 @@ print(current_gpa)
 print(study_hours)
 print(social_points)
 print(stress_level)
+
+git commit -m "Pass Test Case 1: Initial game setup with required variables"
 
 # Test 2
 print("Select the course load you would like to have:")
@@ -42,6 +46,8 @@ else:
     print("Invalid")
     # These if statements allows for the user to choose between 'LIGHT', 'STANDARD', and 'HARD' courses
 
+git commit -m "Pass Test Case 2: Course planning with if/elif/else and comparison operators"
+
 # Test 3
 study = ["Programming", "Math", "English", "History"]
 print("Choose a class to study: ")
@@ -70,6 +76,8 @@ if study is not "Pyshics":
     print("Bomgos")
     # These if statements allows for the user to choose between which class they want to study, and depending on their choices, their GPA goes up regardless
 
+git commit -m "Pass Test Case 3: Study strategy with membership and logical operators"
+
   # Test 4
   print("Final Results: ")
 print(f"GPA: {round(current_gpa, 2)}")
@@ -84,4 +92,8 @@ elif current_gpa < 3.0:
 elif current_gpa == 0:
     print("Ending 3: How is this possible?")
   #These if statements allow the game to end, which concludes the program and allows the user to get 1 of 3 unique endings.
+
+git commit -m "Pass Test Case 4: Complete assessment with all concepts and multiple endings"
+
+git commit -m "Add professional documentation"
   
